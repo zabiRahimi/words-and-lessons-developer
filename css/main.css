@@ -1,0 +1,166 @@
+*{
+  @font-face {
+ font-family: 'b koodak';
+ src: url('../fonts/BKoodakBold.eot');
+ src: url('../fonts/BKoodakBold.eot?#') format('eot'),  /* IE6–8 */
+      url('../fonts/BKoodakBold.woff') format('woff'),
+      url('../fonts/BKoodakBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+font-family: 'b yekan';
+ src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+     url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+
+}
+}
+body{
+  font-family: 'b koodak';
+}
+a{
+    text-decoration: none;
+  }
+  .main{
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+  }
+  /* مربوط به دکمه بالا برنده */
+ .scrollToTop{
+        position:fixed;
+        margin-top:calc(100vh - 100px);
+        margin-left: 15px;
+        z-index: 200;
+        display: none;
+  }
+  .scrollToTop a{
+    
+        padding:8px 10px;
+        border-radius: 16px;
+        background-color: silver;
+        cursor: pointer;
+  }
+  .scrollToTop a:hover{
+    background-color: rgb(214, 212, 212);
+
+  }
+  .indexPage{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf0e6;
+    
+  }
+
+  /* دکمه های صفحه اصلی */
+  .indexA{
+    display: flex;
+    width: 40%;
+    margin: 25px;
+    padding: 15px;
+    background-color: #4f96c2 ;
+    color: #fff;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family:'b yekan';
+   
+
+  }
+
+  /* پنهان کردن قسمت های برنامه در حالت پیش فرض و ورود اولیه صفحه اصلی این کلاس را ندارد */
+  .notShow{
+    display: none;
+  }
+  .div1{
+    padding: 12px 0 17px;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5daacb;
+    color: #fff;
+  }
+  .divWords{
+    margin: 35px 0 20px;
+    display: flex;
+    border: 1px solid rgb(153, 153, 153);
+    flex-flow: column;
+    border-radius: 5px;
+
+  }
+
+  /* تیتر کادرهای دسته بندی دروس */
+  .title{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .titleH4{
+    margin:-12px 8px 0 0;
+    padding: 1px 15px 3px;
+    display: flex;
+    background-color: #5daacb;
+    justify-content: flex-end;
+    border-radius: 12px;
+    color: #fff;
+    font-family:'b yekan';
+
+  }
+
+  /* کادرهای دسته بندی دروس */
+  .body{
+    padding: 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .body button{
+    margin: 5px 2px;
+  }
+    
+  /* هیدر پیج سینگل یک درس  */
+    .headerPage{
+      margin-top: 6px;
+      padding: 15px;
+      display: flex;
+      background-color: #f4f4f4;
+
+    }
+    .headerPage h4{
+      width: 100%;
+      height: 50px;
+      padding: 0 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #5daacb;
+      color: #fff;
+      font-size: 20px;
+      border-radius: 3px;
+
+    }
+    .menuPage{
+      margin: 5px 0;
+      padding: 10px 15px;
+      display: flex;
+      background-color: #f4f4f4;
+      align-items: center;
+    }
+    /* دکمه ها */
+    .menuPage a , .pageA{
+      height: 30px;
+      margin: 0 6px 0 0;
+      padding: 4px 8px 6px;
+      color: #000;
+      background-color: #a5b3b6;
+      border-radius: 3px;
+      font-family:'b yekan';
+    }
+    .pageA{
+      color: #495860;
+      background-color: #dce2e3;
+    
+    }
+    .menuPage a:hover ,.pageA:hover{
+      background-color: #bbc5c7;
+      color: #525252;
+    }

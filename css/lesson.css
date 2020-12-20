@@ -1,0 +1,72 @@
+.divTitleLesson{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-flow: column;
+}
+.titleLesson{
+    color: #016b29;
+    font-size: 24px;
+}
+.listTitleLesson{
+    margin: 10px 15px;
+    display: flex;
+    flex-flow: column;
+}
+.listTitleLesson a {
+    width: max-content;
+    margin-bottom: 10px;
+    color: royalblue;
+    cursor: pointer;
+    direction: rtl;
+}
+.listTitleLesson a:hover{
+    color: #738fe0;
+}
+/* بدنه هر درس */
+.bodyLesson{
+    margin-top: 15px;
+    padding: 15px 0;
+    display: flex;
+    flex-flow: column;
+
+}
+/* فصل هر درس */
+.chunkLesson{
+    margin: 10px 0;
+    padding: 15px 10px;
+    background-color: #f4f4f4;
+    /* direction: rtl; */
+    display: flex;
+    flex-flow: column;
+    /* justify-content: right; */
+    word-spacing: 1px;
+    line-height: 30px;
+}
+/* محتوای هر فصل */
+.articleLesson{
+    margin: 15px 0 10px;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+/* کد نویسی در محتوا */
+.fa{
+    direction: rtl;
+    /* display: flex; */
+}
+.en{
+    width: max-content;
+    line-height: 24px;
+    padding: 5px 10px;
+    direction: ltr;
+    color: #535353;
+    background-color: snow;
+}
+xmp{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'b yekan';
+}
