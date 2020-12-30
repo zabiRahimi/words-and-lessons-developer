@@ -37,10 +37,8 @@
     margin: 10px 0;
     padding: 15px 10px;
     background-color: #f4f4f4;
-    /* direction: rtl; */
     display: flex;
     flex-flow: column;
-    /* justify-content: right; */
     word-spacing: 1px;
     line-height: 30px;
 }
@@ -54,15 +52,48 @@
 /* کد نویسی در محتوا */
 .fa{
     direction: rtl;
+    position: relative;
     /* display: flex; */
 }
 .en{
     width: max-content;
+    max-width: 100%;
     line-height: 24px;
     padding: 5px 10px;
     direction: ltr;
     color: #535353;
     background-color: snow;
+    color: teal;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+/* جهت نوشتن نکته */
+.note{
+    width: max-content;
+    max-width: 100%;
+    display:inline-block;
+    flex-flow: wrap;
+    background-color: #f5d9b9;
+    color: #57747c;
+    padding: 2px 10px;
+    margin-top: 5px;
+    border-radius: 5px; 
+    direction: rtl;
+    
+}
+/* جهت نوشتن و متمایز کردن متن انگلیسی داخل پارگراف فارسی */
+.enS{
+    width: max-content;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0 3px;
+    direction: ltr ;
+    background-color: snow;
+    border-radius: 5px; 
+    display:inline-block;
+    color: teal;
+
 }
 xmp{
     margin: 0;

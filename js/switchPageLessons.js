@@ -5,6 +5,12 @@
 
 switch (page) {
     case 'lessonLaravelApi':lessonPage=[...lessonLaravelApi];break;
+    case 'lessonLaravelStart':lessonPage=[...lessonLaravelStart];break;
+    case 'lessonLaravelModel':lessonPage=[...lessonLaravelModel];break;
+    case 'lessonLaravelMigration':lessonPage=[...lessonLaravelMigration];break;
+    case 'lessonLaravelFactory':lessonPage=[...lessonLaravelFactory];break;
+    case 'lessonLaravelSeeder':lessonPage=[...lessonLaravelSeeder];break;
    
     default:lessonPage=[];
+    
   }
