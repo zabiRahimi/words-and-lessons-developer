@@ -68,6 +68,14 @@
 
 }
 
+/* جهت متمایز کردن کامنت ها  در دستورات */
+.comment{
+    color: #535353;
+    font-family: 'b koodak';
+    opacity: 0.5;
+    display: block;
+}
+
 /* جهت نوشتن نکته */
 .note{
     width: max-content;
@@ -86,14 +94,23 @@
 .enS{
     width: max-content;
     max-width: 100%;
+    height: 29px;
+    
     padding: 0 10px;
-    margin: 0 3px;
+    margin: 1px 3px 0;
     direction: ltr ;
-    background-color: snow;
+    background-color: hsl(54, 58%, 94%);
     border-radius: 5px; 
     display:inline-block;
     color: teal;
 
+}
+/* جهت نوشتن آدرس فایلها و فولدرها در کدها */
+.file{
+    display: block;
+    color: #738fe0;
+    margin: 5px 0;
+    font-size: 12px;
 }
 xmp{
     margin: 0;

@@ -20,6 +20,7 @@
 
 <body onscroll="showScrollToTop()">
   <div class="main">
+    <div class="" id="jsx">hj</div>
     <!-- 
      * جهت دکمه ای که ما را به بالای صفح می برد. این تگ در صفحه فیکست هست .
      *
@@ -40,7 +41,7 @@
    *
    *
    *
-  -->
+   -->
     <div class="wordsPage notShow" id="wordsPage">
       <div class="div1">
         <h3>تمرین کلمات انگلیسی و تایپ ده انگشتی</h3>
@@ -211,26 +212,43 @@
   <script type="text/javascript" src="word/laravel/model.js"></script>
   <script type="text/javascript" src="word/laravel/public1.js"></script>
   <script type="text/javascript" src="word/laravel/faker1.js"></script>
-  <script>
-
+  <script type='text/babel'>
+    import React from "jsx-dom";
     //  var FileSaver = require('file-saver');
     //var blob = new Blob(["Hello, world!"], {type: "text/plain;charset=utf-8"});
     //FileSaver.saveAs(blob, "hello world.txt");
 
+    
+ 
+// DOM Elements.
+/*document.body.appendChild(
+  <div id="greeting" class="alert">
+    Hello World
+  </div>
+)*/
+//import { createElement } from './Vanilla'
 
+/** @jsx createElement */
 
-    var f = new File([""], "filename.txt", { type: "text/plain", lastModified: 'lll' })
+const App = (
+	<div>
+		<p>My awesome app :)</p>
+	</div>
+)
+
+document.getElementById('jsx').appendChild(App)
+   /* var f = new File([""], "filename.txt", { type: "text/plain", lastModified: 'lll' })
     var parts = [
       new Blob(['you construct a file...'], { type: 'text/plain' }),
       ' Same way as you do with blob',
       new Uint16Array([33])
-    ];
+    ];*/
 
     // Construct a file
-    var file = new File(parts, 'sample.txt', {
+   /* var file = new File(parts, 'sample.txt', {
       lastModified: new Date(0), // optional - default = now
       type: "overide/mimetype" // optional - default = ''
-    });
+    });*/
 
     // var fr = new FileReader();
 
@@ -246,13 +264,12 @@
 
 
 
-    const nabi = () => {
+    /* const nabi = () => {
       var blob = new Blob(["Welcome to Websparrow.org."],
         { type: "text/plain;charset=utf-8" });
       saveAs(blob, "static.txt");
-      //let audio = new Audio("word/laravel/ahang/zabi.mp3");
-      //audio.play();
-    }
+     
+    } */
 
   </script>
 

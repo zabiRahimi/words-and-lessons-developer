@@ -1,0 +1,35 @@
+{
+  
+  "name": "testEnglish",
+  "version": "1.0.0",
+  "description": "\"# words-and-lessons-developer\"",
+  "main": "index.html",
+  
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabiRahimi/words-and-lessons-developer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabiRahimi/words-and-lessons-developer/issues"
+  },
+  "homepage": "https://github.com/zabiRahimi/words-and-lessons-developer#readme",
+  "dependencies": {
+    "jsx-dom": "^6.4.23"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2"
+  }
+ 
+   
+  
+}
